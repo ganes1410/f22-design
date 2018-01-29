@@ -1,0 +1,63 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0;
+	height: 100%;
+	background: rgba(219, 214, 214,0.5);
+}
+
+.card {
+	clear: left;
+	border: 1px solid #ccc;
+	width: 23rem;
+	margin: 1.7rem;
+	background: white;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card .background {
+	max-width: 100%;
+}
+.thumbnail {
+	border-radius: 50%;
+	margin-top: -2.8rem;
+	margin-left: 1.5rem;
+	width: 4rem;
+	padding: 0.5rem;
+}
+
+
+.name {
+	position: relative;
+	top: -1rem;
+	left: -2rem;
+	padding-top: 0;
+	margin-left: 2rem;
+	font-size: 18px;
+	font-weight: 800;
+}
+.fa-trash-o {
+	float: right;
+	margin: 0.4rem 1rem 0.4rem 1rem;
+	color: grey;
+}
+
+.fa-cog {
+	float: right;
+	margin: 0.4rem 0 0.4rem ;
+	color: grey;
+}
+
+.location {
+	margin: 0.4rem 2rem 1rem;
+	font-size: 18px;
+}
+.location i {
+	margin: 0.5rem;
+	color: grey;
+}

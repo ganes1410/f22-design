@@ -1,0 +1,20 @@
+button {
+	background: #1990ea;
+	padding: 0.6rem;
+	border-radius: 0.3rem;
+	margin: -0.2rem 1.2rem 0.8rem;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	/* border-color: #1990ea; */
+}
+
+.fa-envelope-o {
+	margin: 0.1rem 0.4rem;
+}
+
+.hire {
+	color:green;
+	margin-left: 0.5rem;
+}

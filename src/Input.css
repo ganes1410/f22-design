@@ -1,0 +1,15 @@
+.search{
+    float: right;
+    margin-right: 15rem;
+    margin-top: -3.2rem;
+    margin-bottom: 2rem;
+    
+}
+.search input {
+    height: 1.5rem; 
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
